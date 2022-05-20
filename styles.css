@@ -1,0 +1,61 @@
+/* @font-face {
+    font-family: 'starwars';
+    src: url('StarJedi-DGRW.ttf');
+} */
+/* FONTS */
+@import url(//db.onlinewebfonts.com/c/0c724f6aa457310440cf8949c615cbd7?family=Star+Jedi);
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png);
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family:  "Star Jedi";
+    font-size: 2rem;
+    color: goldenrod;
+    text-align: center;
+}
+img {
+    width: auto;
+    height: 200px;
+}
+ul {
+    list-style-type: none;
+}
+li{padding: 20px 0;
+}
+
+/* CLASES */
+.malos {
+    background-color: rgb(90, 36, 36);
+}
+
+.rebeldes {
+    background-color: rgb(19, 19, 110);
+}
+
+.soldados {
+    border: 5px dashed rgb(229, 230, 183);
+    letter-spacing: 2px;
+    /* line-height: 2; */
+}
+
+.apoyo {
+    text-align: center;
+}
+
+.naves {
+    text-transform: uppercase;
+}
+
+.droides {
+    display: block;
+    margin: 0 auto;
+    text-align: ce;
+}
+/* ID */
+#vader {
+    font-size: 3rem;
+}
+
+#luke {
+    font-style: italic;
+}
